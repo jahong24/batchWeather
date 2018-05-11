@@ -1,6 +1,6 @@
 New York
 Boston
-Los Angeles
 Houston
 Miami
 Chicago
+Los Angeles
