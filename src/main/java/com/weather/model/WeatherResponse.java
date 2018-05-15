@@ -26,7 +26,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "name",
     "cod"
 })
-public class Response {
+public class WeatherResponse {
 
     @JsonProperty("coord")
     private Coord coord;
@@ -65,7 +65,7 @@ public class Response {
         this.coord = coord;
     }
 
-    public Response withCoord(Coord coord) {
+    public WeatherResponse withCoord(Coord coord) {
         this.coord = coord;
         return this;
     }
@@ -80,7 +80,7 @@ public class Response {
         this.weather = weather;
     }
 
-    public Response withWeather(List<Weather> weather) {
+    public WeatherResponse withWeather(List<Weather> weather) {
         this.weather = weather;
         return this;
     }
@@ -95,7 +95,7 @@ public class Response {
         this.base = base;
     }
 
-    public Response withBase(String base) {
+    public WeatherResponse withBase(String base) {
         this.base = base;
         return this;
     }
@@ -110,7 +110,7 @@ public class Response {
         this.main = main;
     }
 
-    public Response withMain(Main main) {
+    public WeatherResponse withMain(Main main) {
         this.main = main;
         return this;
     }
@@ -125,7 +125,7 @@ public class Response {
         this.wind = wind;
     }
 
-    public Response withWind(Wind wind) {
+    public WeatherResponse withWind(Wind wind) {
         this.wind = wind;
         return this;
     }
@@ -140,7 +140,7 @@ public class Response {
         this.clouds = clouds;
     }
 
-    public Response withClouds(Clouds clouds) {
+    public WeatherResponse withClouds(Clouds clouds) {
         this.clouds = clouds;
         return this;
     }
@@ -155,7 +155,7 @@ public class Response {
         this.rain = rain;
     }
 
-    public Response withRain(Rain rain) {
+    public WeatherResponse withRain(Rain rain) {
         this.rain = rain;
         return this;
     }
@@ -170,7 +170,7 @@ public class Response {
         this.dt = dt;
     }
 
-    public Response withDt(int dt) {
+    public WeatherResponse withDt(int dt) {
         this.dt = dt;
         return this;
     }
@@ -185,7 +185,7 @@ public class Response {
         this.sys = sys;
     }
 
-    public Response withSys(Sys sys) {
+    public WeatherResponse withSys(Sys sys) {
         this.sys = sys;
         return this;
     }
@@ -200,7 +200,7 @@ public class Response {
         this.id = id;
     }
 
-    public Response withId(int id) {
+    public WeatherResponse withId(int id) {
         this.id = id;
         return this;
     }
@@ -215,7 +215,7 @@ public class Response {
         this.name = name;
     }
 
-    public Response withName(String name) {
+    public WeatherResponse withName(String name) {
         this.name = name;
         return this;
     }
@@ -230,7 +230,7 @@ public class Response {
         this.cod = cod;
     }
 
-    public Response withCod(int cod) {
+    public WeatherResponse withCod(int cod) {
         this.cod = cod;
         return this;
     }
@@ -245,7 +245,7 @@ public class Response {
         this.additionalProperties.put(name, value);
     }
 
-    public Response withAdditionalProperty(String name, Object value) {
+    public WeatherResponse withAdditionalProperty(String name, Object value) {
         this.additionalProperties.put(name, value);
         return this;
     }

@@ -10,8 +10,8 @@ import java.util.stream.Stream;
 
 public class BatchLoader {
 	
-	String URL = "http://api.openweathermap.org/data/2.5/weather?q=";
-	String KEY = "&appid=c3e98a7f936a0d72b16a7719e41123ce";
+	private static final String URL = "http://api.openweathermap.org/data/2.5/weather?q=";
+	private static final String KEY = "&appid=c3e98a7f936a0d72b16a7719e41123ce";
 
 	public List<String> loadFile(String fileName) {
 
